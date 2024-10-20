@@ -1,7 +1,6 @@
 blueprint:
   name: Zooz ZEN30
-  description: Automations helper for the Zooz ZEN30 Double Switch using the
-    Zwave JS integration.
+  description: Automations helper for the Zooz ZEN30 Double Switch using the Zwave JS integration.
   domain: automation
   input:
     zooz_zen30:
@@ -14,8 +13,7 @@ blueprint:
           model: ZEN30
     dimmer_up_1x:
       name: Top Paddle 1x
-      description: "Action to run on dimmer upper paddle single tap.
-      Default: Turn on dimmer switch load to last/custom brightness."
+      description: "Action to run on dimmer upper paddle single tap. Default: Turn on dimmer switch load to last/custom brightness."
       default: []
       selector:
         action: {}
@@ -27,8 +25,7 @@ blueprint:
         action: {}
     dimmer_up_3x:
       name: Top Paddle 3x
-      description: "Action to run on dimmer upper paddle triple tap.
-      Default: Enter inclusion/pairing mode."
+      description: "Action to run on dimmer upper paddle triple tap. Default: Enter inclusion/pairing mode."
       default: []
       selector:
         action: {}
@@ -46,8 +43,7 @@ blueprint:
         action: {}
     dimmer_up_hold:
       name: Top Paddle Hold
-      description: "Action to run on dimmer upper paddle press-and-hold.
-      Default: Increase dimmer brightness level."
+      description: "Action to run on dimmer upper paddle press-and-hold. Default: Increase dimmer brightness level."
       default: []
       selector:
         action: {}
@@ -60,8 +56,7 @@ blueprint:
 
     dimmer_down_1x:
       name: Lower Paddle 1x
-      description: "Action to run on dimmer lower paddle single tap.
-      Default: Turn off dimmer switch load."
+      description: "Action to run on dimmer lower paddle single tap. Default: Turn off dimmer switch load."
       default: []
       selector:
         action: {}
@@ -73,8 +68,7 @@ blueprint:
         action: {}
     dimmer_down_3x:
       name: Lower Paddle 3x
-      description: "Action to run on dimmer lower paddle triple tap.
-      Default: Enter exclusion/un-pairing mode."
+      description: "Action to run on dimmer lower paddle triple tap. Default: Enter exclusion/un-pairing mode."
       default: []
       selector:
         action: {}
@@ -92,8 +86,7 @@ blueprint:
         action: {}
     dimmer_down_hold:
       name: Bottom Paddle Hold
-      description: "Action to run on dimmer lower paddle press-and-hold.
-      Default: Decrease dimmer brightness level."
+      description: "Action to run on dimmer lower paddle press-and-hold. Default: Decrease dimmer brightness level."
       default: []
       selector:
         action: {}
@@ -106,8 +99,7 @@ blueprint:
 
     relay_1x:
       name: Relay 1x
-      description: "Action to run on relay button single tap.
-      Default: Toggle relay switch load."
+      description: "Action to run on relay button single tap. Default: Toggle relay switch load."
       default: []
       selector:
         action: {}
@@ -119,8 +111,7 @@ blueprint:
         action: {}
     relay_3x:
       name: Relay 3x
-      description: "Action to run on relay button triple tap.
-      Default: Enter inclusion/pairing mode."
+      description: "Action to run on relay button triple tap. Default: Enter inclusion/pairing mode."
       default: []
       selector:
         action: {}
@@ -138,8 +129,7 @@ blueprint:
         action: {}
     relay_hold:
       name: Relay Hold
-      description: "Action to run on relay button press-and-hold.
-    Default: Increase dimmer brightness level."
+      description: "Action to run on relay button press-and-hold. Default: Increase dimmer brightness level."
       default: []
       selector:
         action: {}
